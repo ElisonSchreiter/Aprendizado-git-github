@@ -1,0 +1,1 @@
+Aprendi a configurar o git e como iniciar um workdir pelo terminal
