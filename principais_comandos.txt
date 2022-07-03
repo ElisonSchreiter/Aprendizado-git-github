@@ -1,0 +1,49 @@
+Aprendi principais comandos do git como:
+no Terminal:
+
+git config --global user.name 'seu nome' - configura o seu nome no git
+git config --global user.email 'seu email' - configura o seu email no git
+git init - cria a estrutura git em uma pasta
+git config --list - lista as configurações salvas no git
+cls ou clear - limpa o log
+
+md ou mkdir, 'file' - cria uma pasta
+new-item 'file.ext' - cria um arquivo com extensão
+rd 'file' - apaga uma pasta
+ls ou dir - mostra todos os arquivos na pasta atual
+cd 'file' - entra na pasta ou no diretório
+cd.. volta uma pasta
+cd - volta à pasta principal
+code 'file' - abre o arquivo no VScode
+code . - abre a pasta no VScode
+
+git status - mostra o status do repositório atual
+git add 'file' - adiciona arquivos ao staged	
+git add . - adiciona todos os arquivos da pasta ao staged
+git reset head 'file' - retira um ou todos os arquivos em staged
+git checkout 'file' - volta os arquivos selecionados à versão commitada
+git commit -m 'descrição do commit' - descreve e commita o arquivo
+git commit --amend - reescreve e adiciona novos arquivos ao último commit, sem a criação de outro
+
+git log - mostra o log de commits do repositório atual
+git log --pretty=oneline - mostra o log em apenas uma linha, para facilitar a visualização
+git log --pretty=oneline -1 - mostra o último log em apenas uma linha
+git log --stat - mostra o status dos commits
+
+git diff - mostra todas as diferenças entre os arquivos do Workdir e a HEAD
+git diff 'file' - mostra as diferenças de um arquivo
+git diff --name-only - mostra os arquivos que tem diferenças
+
+git branch - mostra as branchs existentes
+git branch 'branch' - cria uma nova branch
+git checkout 'branch' - muda de branch
+git checkout -b 'branch' - cria e muda para a nova branch
+git branch -D 'branch' - deleta uma branch, não estando nela
+git merge 'branch' - mescla os conteúdos de uma branch à branch atual
+
+git clone 'url' - clona um repositório do github
+adicionar um README.md
+git remote add origin 'url' - vincula o repositório local com o online
+git push origin master - sobe o código para o github
+
+.gitignore - pasta que impede o git de enviar arquivos (*.ext - qualquer arquivos com essa extensão; /pasta - todos os arquivos nessa pasta; file* - todos os arquivos que comecem assim
